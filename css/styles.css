@@ -1,0 +1,136 @@
+:root {
+  --brand-color: #2e2f42;
+  --p-color: #434455;
+  --background-color: #ffffff;
+  --logo: #4d5ae5;
+}
+.main-header {
+  background-color: var(--brand-color);
+}
+.main-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--background-color);
+}
+.body {
+  background: var(--background-color);
+  font-family: "Roboto";
+  font-style: normal;
+  line-height: 24px;
+  color: #434455;
+  text-decoration: none;
+}
+.list {
+  list-style-type: none;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--brand-color);
+}
+.nav-link {
+  text-decoration: none;
+}
+.nav-link:hover {
+  color: #404bbf;
+}
+.nav-link:focus {
+  color: #404bbf;
+}
+
+.navigation {
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--brand-color);
+}
+.focus-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--brand-color);
+  letter-spacing: 0.02em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: var(--brand-color);
+  letter-spacing: 0.02em;
+}
+.focus-header {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--brand-color);
+  text-transform: capitalize;
+  text-align: center;
+}
+.team-header {
+  font-size: 36px;
+  line-height: 1.11;
+  color: var(--brand-color);
+  text-transform: capitalize;
+  text-align: center;
+}
+.body-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--p-color);
+  letter-spacing: 0.02em;
+}
+.logo {
+  width: 44px;
+  height: 21px;
+  font-family: "Raleway" sans-serif;
+  font-style: normal;
+  line-height: 1.17;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo);
+  text-decoration: none;
+}
+.name-logo {
+  color: var(--brand-color);
+}
+.filter-button {
+  background-color: #f4f4fd;
+  cursor: pointer;
+}
+.filter-button:hover {
+  background-color: #404bbf;
+}
+.order-button {
+  background-color: var(--logo);
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--background-color);
+}
+.order-button:hover {
+  background-color: #404bbf;
+}
+.order-button:focus {
+  background-color: #404bbf;
+}
+.address {
+  font-style: normal;
+}
+.footer {
+  background-color: var(--brand-color);
+}
+.text-footer {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+.name-logo-footer {
+  color: #f4f4fd;
+}
